@@ -6,16 +6,16 @@ class Noumenon < Formula
 
   on_macos do
     url "https://github.com/leifericf/noumenon/releases/download/v0.3.1/noum-macos-arm64"
-    sha256 "d4082647ec9552cb30ea27f6d8431e948176dcd0703d558e2b0384899ded6880"
+    sha256 "8e5c9b3b1f3e0e1130616a697aefd3ee9a7359bab7e3468161b3e39828c9e1b0"
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/leifericf/noumenon/releases/download/v0.3.1/noum-linux-arm64"
-      sha256 "424a4532e5764a66ac28d0df217c0947d0de6563d91b443b88d1ed64ee4c2069"
+      sha256 "45239cf266b5601744c6d281cc6e32c75b607d7d30833463e02e7e5947d555b2"
     else
       url "https://github.com/leifericf/noumenon/releases/download/v0.3.1/noum-linux-x86_64"
-      sha256 "2015ea35f6eeccc8138efbadd8acb770d8177716215cf2e04135886fc13097df"
+      sha256 "2a9c125b5f43e5aacf9ad2c47b03c01f706b77dde126bd24d2d0c3f94f927d2c"
     end
   end
 
