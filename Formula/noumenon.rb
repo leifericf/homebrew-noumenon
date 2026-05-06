@@ -2,20 +2,20 @@ class Noumenon < Formula
   desc "Datomic knowledge graph for codebase understanding"
   homepage "https://noumenon.leifericf.com"
   license "MIT"
-  version "0.11.0"
+  version "0.11.1"
 
   on_macos do
-    url "https://github.com/leifericf/noumenon/releases/download/v0.11.0/noum-macos-arm64"
-    sha256 "69e922f67ec3b0d52d9be143de41e59608aedec0595b97c94bfddc9cd282842a"
+    url "https://github.com/leifericf/noumenon/releases/download/v0.11.1/noum-macos-arm64"
+    sha256 "9e4b366cfbf919076c39ddeb82a7ba9aa5ac4bf07bd8c4400265733b6cf6e885"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/leifericf/noumenon/releases/download/v0.11.0/noum-linux-arm64"
-      sha256 "b820aa5e64a34011008ab34044683ae7cee17317ef272a75bc7b72a8b3e749c5"
+      url "https://github.com/leifericf/noumenon/releases/download/v0.11.1/noum-linux-arm64"
+      sha256 "960232c4b97a220fd7d63bb826a4566a5ad1743566d02657def81b0818b8af27"
     else
-      url "https://github.com/leifericf/noumenon/releases/download/v0.11.0/noum-linux-x86_64"
-      sha256 "596b8da8b4b47754fcbf8bb0f32ad6ad7180ca7a5b315d2f452eed908a3f7b11"
+      url "https://github.com/leifericf/noumenon/releases/download/v0.11.1/noum-linux-x86_64"
+      sha256 "2a7489c08526c9ee7b9684dffb2a28c2927458e61afaf2112ccdc66a43058826"
     end
   end
 
